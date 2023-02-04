@@ -1,0 +1,22 @@
+GET http://localhost:3000/users
+Authorization: : Bearer 
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+{
+    "name" : "Bagas putra",
+    "email" : "bagas@gamil.com",
+    "password" : "7711",
+    "confirmPassword" : "7711"
+} 
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+{
+    "email" : "ridwan@gamil.com",
+    "password" : "7711"
+} 
